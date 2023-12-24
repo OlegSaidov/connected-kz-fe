@@ -1,0 +1,65 @@
+[debug] [2023-12-24T15:20:29.811Z] ----------------------------------------------------------------------
+[debug] [2023-12-24T15:20:29.814Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-24T15:20:29.814Z] CLI Version:   13.0.2
+[debug] [2023-12-24T15:20:29.814Z] Platform:      win32
+[debug] [2023-12-24T15:20:29.814Z] Node Version:  v20.10.0
+[debug] [2023-12-24T15:20:29.814Z] Time:          Sun Dec 24 2023 20:20:29 GMT+0500 (Uzbekistan Standard Time)
+[debug] [2023-12-24T15:20:29.814Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-24T15:20:29.819Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-24T15:20:29.820Z] > authorizing via signed-in user (anvarsaidov83@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Oleg_Saidov\Documents\ConnectedKzProject\connnected-kz\fe
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-24T15:20:46.850Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-24T15:20:53.341Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-12-24T15:20:53.341Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project connected-kz (connected-kz) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-24T15:24:31.705Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/connected-kz [none]
+[debug] [2023-12-24T15:24:32.171Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/connected-kz 200
+[debug] [2023-12-24T15:24:32.171Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/connected-kz {"projectId":"connected-kz","projectNumber":"506158584029","displayName":"connected-kz","name":"projects/connected-kz","resources":{"hostingSite":"connected-kz"},"state":"ACTIVE","etag":"1_ba3988ce-5128-49b4-baba-3cbf244e519e"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2023-12-24T15:27:36.857Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-12-24T15:27:37.104Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-12-24T15:27:37.104Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.1","browserURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Oleg_Saidov\Documents\ConnectedKzProject\connnected-kz 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=333591546&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-12-24T15:27:58.516Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-12-24T15:27:58.516Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-12-24T15:27:59.019Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-12-24T15:27:59.019Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-12-24T15:27:59.025Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-12-24T15:27:59.562Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-12-24T15:27:59.562Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"OlegSaidov","id":32315767,"node_id":"MDQ6VXNlcjMyMzE1NzY3","avatar_url":"https://avatars.githubusercontent.com/u/32315767?v=4","gravatar_id":"","url":"https://api.github.com/users/OlegSaidov","html_url":"https://github.com/OlegSaidov","followers_url":"https://api.github.com/users/OlegSaidov/followers","following_url":"https://api.github.com/users/OlegSaidov/following{/other_user}","gists_url":"https://api.github.com/users/OlegSaidov/gists{/gist_id}","starred_url":"https://api.github.com/users/OlegSaidov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/OlegSaidov/subscriptions","organizations_url":"https://api.github.com/users/OlegSaidov/orgs","repos_url":"https://api.github.com/users/OlegSaidov/repos","events_url":"https://api.github.com/users/OlegSaidov/events{/privacy}","received_events_url":"https://api.github.com/users/OlegSaidov/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":true,"bio":null,"twitter_username":null,"public_repos":21,"public_gists":0,"followers":0,"following":0,"created_at":"2017-09-27T00:51:00Z","updated_at":"2023-12-19T15:52:15Z","private_gists":3,"total_private_repos":5,"owned_private_repos":5,"disk_usage":30492,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as OlegSaidov 
+[info] 
